@@ -20,11 +20,11 @@ silicon.
 ### Build docker image
 
 ```bash
-docker build -t deno . --platform linux/amd64
+docker build -t <name> . --platform linux/amd64
 ```
 
 ### Run docker image
 
 ```bash
-docker run -dp 8080:8080 --platform linux/amd64 deno
+docker run -dp 8080:8080 --platform linux/amd64 <name>
 ```
